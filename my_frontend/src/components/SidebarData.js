@@ -9,15 +9,15 @@ export const SidebarData = [
     },
 
     {
-        title: 'Home',
+        title: 'Dashboard',
         icon: <HomeIcon/>,
-        Link: '/home'
+        Link: '/dashboard'
     },
 
     {
-        title: 'Home',
+        title: 'Tasks',
         icon: <HomeIcon/>,
-        Link: '/home'
+        Link: '/tasks'
     },
 
 ]
