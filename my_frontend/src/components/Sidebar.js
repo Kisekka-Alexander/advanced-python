@@ -17,7 +17,7 @@ const Sidebar = () => {
     <ul className='SidebarList'>
        {SidebarData.map((val,key)=> {
          return(
-         <li className='row' key={key} onClick={()=>{window.location.pathname=val.Link}}>
+         <li className='row' id={window.location.pathname===val.Link ? 'active': ''} key={key} onClick={()=>{window.location.pathname=val.Link}}>
            {" "}
          <div id='icon'>{val.icon}</div>
          {" "}
