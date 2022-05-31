@@ -31,11 +31,16 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
 
 }
 
 .SidebarList .row:hover {
     cursor: pointer;
+    background-color: #202124;
+}
+
+.SidebarList #active {
     background-color: #202124;
 }
 
