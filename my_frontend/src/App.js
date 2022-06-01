@@ -5,22 +5,27 @@ import './App.css'
 
 function App() {
   return (
-  //   <Router>
-  //   <Routes>
+    <div className='App'>
+    <Router>
+    <Routes>
   
-  //   <Route path='/' element={
-  //     <div className="App" id="outer-container">
-  //     <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
-  //     </div>
-  //   }/>
+   <Route path='/' element={
+      // <div className="App" id="outer-container">
+      // <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+      // </div>
+      <Sidebar/>
+     
+    }/>
  
-  // <Route path='/tasks' element={<Tasks />} />
-  // </Routes>
-  // </Router>
-<div className='App'>
-<Sidebar/>
-</div>
+  <Route path='/tasks' element={
+    
+     <Tasks />
+     
+  } />
+  </Routes>
+  </Router>
 
+  </div>
   );
 }
 
