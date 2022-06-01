@@ -1,10 +1,17 @@
-
+import Sidebar from './Sidebar'
 const Tasks = () => {
   return (
-    <div>
-        <h4> My Tasks</h4>
+    <div className='App'>
+    <Sidebar/>
+    <div className='Content'>
+        <p> 
+          My Tasks
+          My Tasks
+        </p>
         <a href="/"> Back</a>
     </div>
+    </div>
+    
   )
 }
 
