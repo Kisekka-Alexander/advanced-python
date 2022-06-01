@@ -1,22 +1,24 @@
 import HomeIcon from '@mui/icons-material/Home';
+import DashboardIcon from '@mui/icons-material/Dashboard';
+import TaskIcon from '@mui/icons-material/Task';
 
 export const SidebarData = [
 
     {
         title: 'Home',
         icon: <HomeIcon/>,
-        Link: '/home'
+        Link: '/'
     },
 
     {
         title: 'Dashboard',
-        icon: <HomeIcon/>,
+        icon: <DashboardIcon/>,
         Link: '/dashboard'
     },
 
     {
         title: 'Tasks',
-        icon: <HomeIcon/>,
+        icon: <TaskIcon/>,
         Link: '/tasks'
     },
 
