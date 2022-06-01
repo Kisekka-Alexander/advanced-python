@@ -4,14 +4,25 @@
   height: 100vh;
 }
 
+
 body{
     margin: 0;
     padding: 0;
 }
-.Sidebar {
+
+.Content {
+    
+    overflow: auto;
     height: 100%;
-    width: 200px;
+    text-align: center;
+    
+  }
+.Sidebar {
+    float: left;
+    height: 100%;
+    width: 15%;
     background-color: #2A3F54;
+   
 }
 
 .SidebarList {
