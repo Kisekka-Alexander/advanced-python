@@ -15,7 +15,16 @@ body{
     overflow: auto;
     height: 100%;
     text-align: center;
-    
+    text-align: left;
+  }
+
+.Container {
+    /* max-width: 500px; */
+    /* margin: 30px auto; */
+    overflow: auto;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: left;
   }
 .Sidebar {
     float: left;
