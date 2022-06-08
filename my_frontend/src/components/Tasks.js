@@ -1,14 +1,17 @@
 import Sidebar from './Sidebar'
-const Tasks = () => {
+const Tasks = ( { tasks }) => {
   return (
     <div className='App'>
     <Sidebar/>
     <div className='Content'>
-        <p> 
-          My Tasks
-          My Tasks
-        </p>
-        <a href="/"> Back</a>
+       <div className='Container'>
+         {tasks.map((task)=>(
+           <h3 key={task.id}>{task.text}</h3>
+         ))}
+       </div>
+       <footer>
+        <a href="/"> Home</a>
+        </footer>
     </div>
     </div>
     
